@@ -1,7 +1,7 @@
  using UnityEngine;
  using System.Collections;
  
- public class MenuEvents : MonoBehaviour 
+ public class mainMenu : MonoBehaviour 
  {
      public void LoadLevel(int levelIndex)
      {
