@@ -15,10 +15,10 @@ Filenames:
   LoadOnClick.cs  
    
 ## Author  
-Brooke Robinson, Cary Sullivan, Jennifer Michael, Jesus Ortiz, and Peter Huynh
-Univerity of Colorado at Boulder
-CSCI 3308
-Fall 2015
+Brooke Robinson, Cary Sullivan, Jennifer Michael, Jesus Ortiz, and Peter Huynh  
+Univerity of Colorado at Boulder  
+CSCI 3308  
+Fall 2015  
 
 ## Requirements
 Android Device
