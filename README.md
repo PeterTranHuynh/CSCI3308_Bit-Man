@@ -6,6 +6,12 @@
  
  Play...if you dare!  
   
+   
+## How to Play  
+Click "VR Mode" to turn off VR Mode (the split screen) if playing without Cardboard
+Tap the screen to walk/stop walking
+Look down if you wish to return to Menu screen or quit 
+
 ## Documentation  
 Doxygen commented C# script files found within scripts folder.  
 Filenames:  
