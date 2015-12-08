@@ -1,0 +1,78 @@
+\hypertarget{class_character_motor_1_1_character_motor_movement}{}\section{Character\+Motor.\+Character\+Motor\+Movement Class Reference}
+\label{class_character_motor_1_1_character_motor_movement}\index{Character\+Motor.\+Character\+Motor\+Movement@{Character\+Motor.\+Character\+Motor\+Movement}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_aa820360350daf9692ded079eb05a9556}{max\+Forward\+Speed} = 3.\+0f
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_a027288f30c506ef80b64ea0903642d03}{max\+Sideways\+Speed} = 2.\+0f
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_a2f6ed24c7e60a10e62aefa33741b0eb5}{max\+Backwards\+Speed} = 2.\+0f
+\item 
+Animation\+Curve \hyperlink{class_character_motor_1_1_character_motor_movement_ab157f4037ba87d83810d2bf59b78803e}{slope\+Speed\+Multiplier} = new Animation\+Curve(new Keyframe(-\/90, 1), new Keyframe(0, 1), new Keyframe(90, 0))
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_a0968f793fea8120298e5ec2d721ec3a2}{max\+Ground\+Acceleration} = 30.\+0f
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_a0a985e4edd7576f3657d379972dc077e}{max\+Air\+Acceleration} = 20.\+0f
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_ac8c8626de028fa14bd370baef3ac4393}{gravity} = 9.\+81f
+\item 
+float \hyperlink{class_character_motor_1_1_character_motor_movement_ae41d6a91868b3664fe183b45bf831505}{max\+Fall\+Speed} = 20.\+0f
+\item 
+Collision\+Flags \hyperlink{class_character_motor_1_1_character_motor_movement_aac4344120b66bff82cbfb55b388cde77}{collision\+Flags}
+\item 
+Vector3 \hyperlink{class_character_motor_1_1_character_motor_movement_a602814fda948d4dbc79a2b4f18386ce1}{velocity}
+\item 
+Vector3 \hyperlink{class_character_motor_1_1_character_motor_movement_a9a11d4502ed9cb50922c1198093af7b3}{frame\+Velocity} = Vector3.\+zero
+\item 
+Vector3 \hyperlink{class_character_motor_1_1_character_motor_movement_a359dedb4d215a06ebc2b81a137634d4a}{hit\+Point} = Vector3.\+zero
+\item 
+Vector3 \hyperlink{class_character_motor_1_1_character_motor_movement_a10fee81a506f0445be8905e3de83a0bc}{last\+Hit\+Point} = new Vector3(Mathf.\+Infinity, 0, 0)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_character_motor_1_1_character_motor_movement_aac4344120b66bff82cbfb55b388cde77}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!collision\+Flags@{collision\+Flags}}
+\index{collision\+Flags@{collision\+Flags}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{collision\+Flags}]{\setlength{\rightskip}{0pt plus 5cm}Collision\+Flags Character\+Motor.\+Character\+Motor\+Movement.\+collision\+Flags}\label{class_character_motor_1_1_character_motor_movement_aac4344120b66bff82cbfb55b388cde77}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a9a11d4502ed9cb50922c1198093af7b3}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!frame\+Velocity@{frame\+Velocity}}
+\index{frame\+Velocity@{frame\+Velocity}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{frame\+Velocity}]{\setlength{\rightskip}{0pt plus 5cm}Vector3 Character\+Motor.\+Character\+Motor\+Movement.\+frame\+Velocity = Vector3.\+zero}\label{class_character_motor_1_1_character_motor_movement_a9a11d4502ed9cb50922c1198093af7b3}
+\hypertarget{class_character_motor_1_1_character_motor_movement_ac8c8626de028fa14bd370baef3ac4393}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!gravity@{gravity}}
+\index{gravity@{gravity}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{gravity}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+gravity = 9.\+81f}\label{class_character_motor_1_1_character_motor_movement_ac8c8626de028fa14bd370baef3ac4393}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a359dedb4d215a06ebc2b81a137634d4a}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!hit\+Point@{hit\+Point}}
+\index{hit\+Point@{hit\+Point}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{hit\+Point}]{\setlength{\rightskip}{0pt plus 5cm}Vector3 Character\+Motor.\+Character\+Motor\+Movement.\+hit\+Point = Vector3.\+zero}\label{class_character_motor_1_1_character_motor_movement_a359dedb4d215a06ebc2b81a137634d4a}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a10fee81a506f0445be8905e3de83a0bc}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!last\+Hit\+Point@{last\+Hit\+Point}}
+\index{last\+Hit\+Point@{last\+Hit\+Point}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{last\+Hit\+Point}]{\setlength{\rightskip}{0pt plus 5cm}Vector3 Character\+Motor.\+Character\+Motor\+Movement.\+last\+Hit\+Point = new Vector3(Mathf.\+Infinity, 0, 0)}\label{class_character_motor_1_1_character_motor_movement_a10fee81a506f0445be8905e3de83a0bc}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a0a985e4edd7576f3657d379972dc077e}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!max\+Air\+Acceleration@{max\+Air\+Acceleration}}
+\index{max\+Air\+Acceleration@{max\+Air\+Acceleration}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{max\+Air\+Acceleration}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+max\+Air\+Acceleration = 20.\+0f}\label{class_character_motor_1_1_character_motor_movement_a0a985e4edd7576f3657d379972dc077e}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a2f6ed24c7e60a10e62aefa33741b0eb5}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!max\+Backwards\+Speed@{max\+Backwards\+Speed}}
+\index{max\+Backwards\+Speed@{max\+Backwards\+Speed}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{max\+Backwards\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+max\+Backwards\+Speed = 2.\+0f}\label{class_character_motor_1_1_character_motor_movement_a2f6ed24c7e60a10e62aefa33741b0eb5}
+\hypertarget{class_character_motor_1_1_character_motor_movement_ae41d6a91868b3664fe183b45bf831505}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!max\+Fall\+Speed@{max\+Fall\+Speed}}
+\index{max\+Fall\+Speed@{max\+Fall\+Speed}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{max\+Fall\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+max\+Fall\+Speed = 20.\+0f}\label{class_character_motor_1_1_character_motor_movement_ae41d6a91868b3664fe183b45bf831505}
+\hypertarget{class_character_motor_1_1_character_motor_movement_aa820360350daf9692ded079eb05a9556}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!max\+Forward\+Speed@{max\+Forward\+Speed}}
+\index{max\+Forward\+Speed@{max\+Forward\+Speed}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{max\+Forward\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+max\+Forward\+Speed = 3.\+0f}\label{class_character_motor_1_1_character_motor_movement_aa820360350daf9692ded079eb05a9556}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a0968f793fea8120298e5ec2d721ec3a2}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!max\+Ground\+Acceleration@{max\+Ground\+Acceleration}}
+\index{max\+Ground\+Acceleration@{max\+Ground\+Acceleration}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{max\+Ground\+Acceleration}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+max\+Ground\+Acceleration = 30.\+0f}\label{class_character_motor_1_1_character_motor_movement_a0968f793fea8120298e5ec2d721ec3a2}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a027288f30c506ef80b64ea0903642d03}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!max\+Sideways\+Speed@{max\+Sideways\+Speed}}
+\index{max\+Sideways\+Speed@{max\+Sideways\+Speed}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{max\+Sideways\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Character\+Motor.\+Character\+Motor\+Movement.\+max\+Sideways\+Speed = 2.\+0f}\label{class_character_motor_1_1_character_motor_movement_a027288f30c506ef80b64ea0903642d03}
+\hypertarget{class_character_motor_1_1_character_motor_movement_ab157f4037ba87d83810d2bf59b78803e}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!slope\+Speed\+Multiplier@{slope\+Speed\+Multiplier}}
+\index{slope\+Speed\+Multiplier@{slope\+Speed\+Multiplier}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{slope\+Speed\+Multiplier}]{\setlength{\rightskip}{0pt plus 5cm}Animation\+Curve Character\+Motor.\+Character\+Motor\+Movement.\+slope\+Speed\+Multiplier = new Animation\+Curve(new Keyframe(-\/90, 1), new Keyframe(0, 1), new Keyframe(90, 0))}\label{class_character_motor_1_1_character_motor_movement_ab157f4037ba87d83810d2bf59b78803e}
+\hypertarget{class_character_motor_1_1_character_motor_movement_a602814fda948d4dbc79a2b4f18386ce1}{}\index{Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}!velocity@{velocity}}
+\index{velocity@{velocity}!Character\+Motor\+::\+Character\+Motor\+Movement@{Character\+Motor\+::\+Character\+Motor\+Movement}}
+\subsubsection[{velocity}]{\setlength{\rightskip}{0pt plus 5cm}Vector3 Character\+Motor.\+Character\+Motor\+Movement.\+velocity}\label{class_character_motor_1_1_character_motor_movement_a602814fda948d4dbc79a2b4f18386ce1}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_character_motor_8cs}{Character\+Motor.\+cs}\end{DoxyCompactItemize}

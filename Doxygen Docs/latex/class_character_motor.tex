@@ -1,0 +1,98 @@
+\hypertarget{class_character_motor}{}\section{Character\+Motor Class Reference}
+\label{class_character_motor}\index{Character\+Motor@{Character\+Motor}}
+Inheritance diagram for Character\+Motor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_character_motor}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_character_motor_1_1_character_motor_jumping}{Character\+Motor\+Jumping}
+\item 
+class \hyperlink{class_character_motor_1_1_character_motor_movement}{Character\+Motor\+Movement}
+\item 
+class \hyperlink{class_character_motor_1_1_character_motor_moving_platform}{Character\+Motor\+Moving\+Platform}
+\item 
+class \hyperlink{class_character_motor_1_1_character_motor_sliding}{Character\+Motor\+Sliding}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_character_motor_ae8904b1ae7907502123f9376cf77a045}{Movement\+Transfer\+On\+Jump} \{ \hyperlink{class_character_motor_ae8904b1ae7907502123f9376cf77a045a6adf97f83acf6453d4a6a4b1070f3754}{Movement\+Transfer\+On\+Jump.\+None}, 
+\hyperlink{class_character_motor_ae8904b1ae7907502123f9376cf77a045a58ffcf57c2b00a9e42d67e43391ca652}{Movement\+Transfer\+On\+Jump.\+Init\+Transfer}, 
+\hyperlink{class_character_motor_ae8904b1ae7907502123f9376cf77a045a1caa5cdb42cd1fe12e5047b8aaa499b9}{Movement\+Transfer\+On\+Jump.\+Perma\+Transfer}, 
+\hyperlink{class_character_motor_ae8904b1ae7907502123f9376cf77a045af922013cd8da7d5623b13b9b520bacc3}{Movement\+Transfer\+On\+Jump.\+Perma\+Locked}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Vector3 \hyperlink{class_character_motor_ad0bcb8698b03c87100f137eda3d44778}{input\+Move\+Direction} = Vector3.\+zero
+\item 
+bool \hyperlink{class_character_motor_a35e7c3109338c4d66e8a0e3e8267eb1c}{input\+Jump} = false
+\item 
+\hyperlink{class_character_motor_1_1_character_motor_movement}{Character\+Motor\+Movement} \hyperlink{class_character_motor_a4e78119cee0a5fefef9e00fa3e3226e6}{movement} = new \hyperlink{class_character_motor_1_1_character_motor_movement}{Character\+Motor\+Movement}()
+\item 
+\hyperlink{class_character_motor_1_1_character_motor_jumping}{Character\+Motor\+Jumping} \hyperlink{class_character_motor_ae37632c27e5831d2abebfaf6f3f1090d}{jumping} = new \hyperlink{class_character_motor_1_1_character_motor_jumping}{Character\+Motor\+Jumping}()
+\item 
+\hyperlink{class_character_motor_1_1_character_motor_moving_platform}{Character\+Motor\+Moving\+Platform} \hyperlink{class_character_motor_a7e1365cba58a6219df462088ee282bbb}{moving\+Platform} = new \hyperlink{class_character_motor_1_1_character_motor_moving_platform}{Character\+Motor\+Moving\+Platform}()
+\item 
+\hyperlink{class_character_motor_1_1_character_motor_sliding}{Character\+Motor\+Sliding} \hyperlink{class_character_motor_acdffbadbd84cdc50a57ae1675166ceb5}{sliding} = new \hyperlink{class_character_motor_1_1_character_motor_sliding}{Character\+Motor\+Sliding}()
+\item 
+bool \hyperlink{class_character_motor_a2515921b1c3156e2a4a15a7faf13a222}{grounded} = true
+\item 
+Vector3 \hyperlink{class_character_motor_a83cfb98714aa374ddef3692ccd8cba2c}{ground\+Normal} = Vector3.\+zero
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_character_motor_ae8904b1ae7907502123f9376cf77a045}{}\index{Character\+Motor@{Character\+Motor}!Movement\+Transfer\+On\+Jump@{Movement\+Transfer\+On\+Jump}}
+\index{Movement\+Transfer\+On\+Jump@{Movement\+Transfer\+On\+Jump}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{Movement\+Transfer\+On\+Jump}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Character\+Motor.\+Movement\+Transfer\+On\+Jump}\hspace{0.3cm}{\ttfamily [strong]}}\label{class_character_motor_ae8904b1ae7907502123f9376cf77a045}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{None@{None}!Character\+Motor@{Character\+Motor}}\index{Character\+Motor@{Character\+Motor}!None@{None}}\item[{\em 
+\hypertarget{class_character_motor_ae8904b1ae7907502123f9376cf77a045a6adf97f83acf6453d4a6a4b1070f3754}{}None\label{class_character_motor_ae8904b1ae7907502123f9376cf77a045a6adf97f83acf6453d4a6a4b1070f3754}
+}]\index{Init\+Transfer@{Init\+Transfer}!Character\+Motor@{Character\+Motor}}\index{Character\+Motor@{Character\+Motor}!Init\+Transfer@{Init\+Transfer}}\item[{\em 
+\hypertarget{class_character_motor_ae8904b1ae7907502123f9376cf77a045a58ffcf57c2b00a9e42d67e43391ca652}{}Init\+Transfer\label{class_character_motor_ae8904b1ae7907502123f9376cf77a045a58ffcf57c2b00a9e42d67e43391ca652}
+}]\index{Perma\+Transfer@{Perma\+Transfer}!Character\+Motor@{Character\+Motor}}\index{Character\+Motor@{Character\+Motor}!Perma\+Transfer@{Perma\+Transfer}}\item[{\em 
+\hypertarget{class_character_motor_ae8904b1ae7907502123f9376cf77a045a1caa5cdb42cd1fe12e5047b8aaa499b9}{}Perma\+Transfer\label{class_character_motor_ae8904b1ae7907502123f9376cf77a045a1caa5cdb42cd1fe12e5047b8aaa499b9}
+}]\index{Perma\+Locked@{Perma\+Locked}!Character\+Motor@{Character\+Motor}}\index{Character\+Motor@{Character\+Motor}!Perma\+Locked@{Perma\+Locked}}\item[{\em 
+\hypertarget{class_character_motor_ae8904b1ae7907502123f9376cf77a045af922013cd8da7d5623b13b9b520bacc3}{}Perma\+Locked\label{class_character_motor_ae8904b1ae7907502123f9376cf77a045af922013cd8da7d5623b13b9b520bacc3}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_character_motor_a2515921b1c3156e2a4a15a7faf13a222}{}\index{Character\+Motor@{Character\+Motor}!grounded@{grounded}}
+\index{grounded@{grounded}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{grounded}]{\setlength{\rightskip}{0pt plus 5cm}bool Character\+Motor.\+grounded = true}\label{class_character_motor_a2515921b1c3156e2a4a15a7faf13a222}
+\hypertarget{class_character_motor_a83cfb98714aa374ddef3692ccd8cba2c}{}\index{Character\+Motor@{Character\+Motor}!ground\+Normal@{ground\+Normal}}
+\index{ground\+Normal@{ground\+Normal}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{ground\+Normal}]{\setlength{\rightskip}{0pt plus 5cm}Vector3 Character\+Motor.\+ground\+Normal = Vector3.\+zero}\label{class_character_motor_a83cfb98714aa374ddef3692ccd8cba2c}
+\hypertarget{class_character_motor_a35e7c3109338c4d66e8a0e3e8267eb1c}{}\index{Character\+Motor@{Character\+Motor}!input\+Jump@{input\+Jump}}
+\index{input\+Jump@{input\+Jump}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{input\+Jump}]{\setlength{\rightskip}{0pt plus 5cm}bool Character\+Motor.\+input\+Jump = false}\label{class_character_motor_a35e7c3109338c4d66e8a0e3e8267eb1c}
+\hypertarget{class_character_motor_ad0bcb8698b03c87100f137eda3d44778}{}\index{Character\+Motor@{Character\+Motor}!input\+Move\+Direction@{input\+Move\+Direction}}
+\index{input\+Move\+Direction@{input\+Move\+Direction}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{input\+Move\+Direction}]{\setlength{\rightskip}{0pt plus 5cm}Vector3 Character\+Motor.\+input\+Move\+Direction = Vector3.\+zero}\label{class_character_motor_ad0bcb8698b03c87100f137eda3d44778}
+\hypertarget{class_character_motor_ae37632c27e5831d2abebfaf6f3f1090d}{}\index{Character\+Motor@{Character\+Motor}!jumping@{jumping}}
+\index{jumping@{jumping}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{jumping}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Character\+Motor\+Jumping} Character\+Motor.\+jumping = new {\bf Character\+Motor\+Jumping}()}\label{class_character_motor_ae37632c27e5831d2abebfaf6f3f1090d}
+\hypertarget{class_character_motor_a4e78119cee0a5fefef9e00fa3e3226e6}{}\index{Character\+Motor@{Character\+Motor}!movement@{movement}}
+\index{movement@{movement}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{movement}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Character\+Motor\+Movement} Character\+Motor.\+movement = new {\bf Character\+Motor\+Movement}()}\label{class_character_motor_a4e78119cee0a5fefef9e00fa3e3226e6}
+\hypertarget{class_character_motor_a7e1365cba58a6219df462088ee282bbb}{}\index{Character\+Motor@{Character\+Motor}!moving\+Platform@{moving\+Platform}}
+\index{moving\+Platform@{moving\+Platform}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{moving\+Platform}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Character\+Motor\+Moving\+Platform} Character\+Motor.\+moving\+Platform = new {\bf Character\+Motor\+Moving\+Platform}()}\label{class_character_motor_a7e1365cba58a6219df462088ee282bbb}
+\hypertarget{class_character_motor_acdffbadbd84cdc50a57ae1675166ceb5}{}\index{Character\+Motor@{Character\+Motor}!sliding@{sliding}}
+\index{sliding@{sliding}!Character\+Motor@{Character\+Motor}}
+\subsubsection[{sliding}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Character\+Motor\+Sliding} Character\+Motor.\+sliding = new {\bf Character\+Motor\+Sliding}()}\label{class_character_motor_acdffbadbd84cdc50a57ae1675166ceb5}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_character_motor_8cs}{Character\+Motor.\+cs}\end{DoxyCompactItemize}
